@@ -1,11 +1,11 @@
 # prototype-mattie
 Welcome to the online manual to make an prototype for Mattie: a smart mattress. 
 For this prototype, you'll need:
-- A NODEMCU ESP8266MOD with USB cabel
+- A NODEMCU ESP8266MOD with USB cable
 - A servomotor
 - A 3-pin on/off button
 - A sponge
-- 5 female to female cabel connectors
+- 5 female to female cable connectors
 - Scissors
 - Tape
 
@@ -14,8 +14,8 @@ First, cut the sponge halfway through the middle in the side, and make a hole in
 Then, cut a small hole for the servomotor. 
 
 ### step 2: Putting the hardware into place
-Connect the servomotor and the button with one end to a female to female cabel connectors. It doesn't need to be connected to the NODEMCU, we'll get to that later.
-When they have one side of the cabels connected, put them in de spots you just cut open. When they are in place, make sure you can press the button on top of the sponge. When everything fits, tape them, so they don't fall out the sponge.
+Connect the servomotor and the button with one end to a female to female cable connectors. It doesn't need to be connected to the NODEMCU, we'll get to that later.
+When they have one side of the cables connected, put them in de spots you just cut open. When they are in place, make sure you can press the button on top of the sponge. When everything fits, tape them, so they don't fall out the sponge.
 
 ### step 3: Connecting to the NODEMCU
 Now comes the tricky part. The button (as descriped) has 3 pins: an 3 VOLT INPUT, a SIGNAL OUTPUT and a GROUND. From top to bottom, the pins are signal, 3v and ground. Connect the 3v button to the 3v3 pin in the NODEMCU, the signal to D1 and the ground to ground.
