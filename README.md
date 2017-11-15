@@ -30,7 +30,9 @@ When you're done uploading the code, there won't happen much. When you press the
 
 *If your button does work differently, you'll notice that nothing will happen when you press it. Start switching your cables with eachother. There are only 6 combinations of possible ways the pins work, so it shouldn't be that hard finding out how your buttons work
 
-```[15:30, 15-11-2017] Rick Buter: // If you want to make a variable that will not change, you need to put const before int
+
+## The code:
+```// If you want to make a variable that will not change, you need to put const before int
 // These variables wont change, so you need to put const in front of it
 const int button = D1;
 const int servoMotor = D2;
@@ -80,4 +82,4 @@ void loop() {
   
 } 
 
-// And done, it's a piece of cake```
+// And done, it's a piece of cake
