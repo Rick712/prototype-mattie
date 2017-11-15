@@ -20,6 +20,7 @@ When they have one side of the cables connected, put them in de spots you just c
 ### step 3: Connecting to the NODEMCU
 Now comes the tricky part. The button (as descriped) has 3 pins: an 3 VOLT INPUT, a SIGNAL OUTPUT and a GROUND. From top to bottom, the pins are signal, 3v and ground. Connect the 3v button to the 3v3 pin in the NODEMCU, the signal to D1 and the ground to ground.
 Some buttons work differently than others, so your button could be working differently. We'll come to that in a second*
+
 The servomotor has only 2 pins: a + and a -. Red is + and black is -. Connect the + to D2, and the - to ground.
 
 ### step 4: Uploading the code
