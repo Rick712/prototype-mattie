@@ -23,9 +23,12 @@ Some buttons work differently than others, so your button could be working diffe
 The servomotor has only 2 pins: a + and a -. Red is + and black is -. Connect the + to D2, and the - to ground.
 
 ### step 4: Uploading the code
-This is the easy part. All you have to do is take the code, and upload it to your NODEMCU. If you don't quite understand what the code does, there are a lot of comments in the code. Everything that happens has a comment, so you can easily learn how the code works.
+This is the easy part. All you have to do is take the code, and upload it to your NODEMCU. If you don't quite understand what the code does, there are a lot of comments in the code. Everything that happens has a comment, so you can easily learn how the code works. You can get the code by downloading it, or from the bottom of the manual.
 
-Here is the code:
+### step 5: Let the magic happen
+When you're done uploading the code, there won't happen much. When you press the button longer than 1 second, the sponge will start vibrating. When you release the button, the sponge will stop vibrating.
+
+*If your button does work differently, you'll notice that nothing will happen when you press it. Start switching your cables with eachother. There are only 6 combinations of possible ways the pins work, so it shouldn't be that hard finding out how your buttons work
 
 ```[15:30, 15-11-2017] Rick Buter: // If you want to make a variable that will not change, you need to put const before int
 // These variables wont change, so you need to put const in front of it
@@ -78,8 +81,3 @@ void loop() {
 } 
 
 // And done, it's a piece of cake```
-
-### step 5: Let the magic happen
-When you're done uploading the code, there won't happen much. When you press the button longer than 1 second, the sponge will start vibrating. When you release the button, the sponge will stop vibrating.
-
-*If your button does work differently, you'll notice that nothing will happen when you press it. Start switching your cables with eachother. There are only 6 combinations of possible ways the pins work, so it shouldn't be that hard finding out how your buttons work
