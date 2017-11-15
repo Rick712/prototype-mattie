@@ -1,9 +1,8 @@
-// If you want to make a variable that will not change, you need to put const before int
-// These variables wont change, so you need to put const in front of it
-const int button = D1;
-const int servoMotor = D2;
+// First, make 2 variables for each signals for the OUTPUT and INPUT we're gonna use: the servomotor and the button
+int button = D1;
+int servoMotor = D2;
 
-// These variables will change, so only int is enough
+// Now make a variable for the output from the button, and set the value to 0.
 int buttonOutput = 0;
 
 void setup() {
